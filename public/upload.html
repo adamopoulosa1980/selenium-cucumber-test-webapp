@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload</title>
+</head>
+<body>
+    <h1>File Upload</h1>
+    <form method="post" enctype="multipart/form-data">
+        <label for="jsonUpload">Upload JSON:</label>
+        <input type="file" id="jsonUpload" name="jsonUpload" accept=".json"><br/>
+        <label for="pdfUpload">Upload PDF:</label>
+        <input type="file" id="pdfUpload" name="pdfUpload" accept=".pdf"><br/>
+        <button type="submit" id="submitButton">Upload</button>
+    </form>
+    <div id="successMessage"></div>
+    <div id="errorMessage"></div>
+</body>
+</html>
