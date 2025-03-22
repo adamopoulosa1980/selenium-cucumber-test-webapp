@@ -27,3 +27,6 @@ Ensure you have Node.js and npm installed on your machine.
 3. Start the application:
    ```bash
    npm start
+
+## License
+MIT License.
